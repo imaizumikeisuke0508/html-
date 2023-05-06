@@ -1,0 +1,229 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #FF9A4B;
+}
+
+main {
+  height: 50vh;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  width: 960px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around ;
+}
+
+.box1 {
+  width: 300px;
+  height: auto;
+  background-color: #EEEEEE;
+  display: inline-block;
+  margin: 15px;
+}
+
+ .box1-1 {
+   text-align: center;
+   color: white;
+   background-color: #FF9A4B;
+   position: absolute;
+   font-size: 15px;
+ }
+
+ .box1-2 {
+   width: 280px;
+   height: 150px;
+   background-image: url(../image/flow01.jpg);
+   background-position: bottom;
+   background-size: cover;
+   margin: 10px;
+ }
+ .box1-3 {
+  margin-top: 5px;
+ }
+ .box1-4 {
+ font-size: 10px;
+
+ }
+
+.box2 {
+  width: 300px;
+  height: auto;
+  background-color: #EEEEEE;
+  display: inline-block;
+  margin: 15px;
+}
+
+.box2-1 {
+  text-align: center;
+  color: white;
+  background-color: #FF9A4B;
+  position: absolute;
+  font-size: 15px;
+}
+
+.box2-2 {
+  width: 280px;
+  height: 150px;
+  background-image: url(../image/flow02.jpg);
+  background-position: bottom;
+  background-size: cover;
+  margin: 10px;
+
+}
+.box2-3 {
+ margin-top: 5px;
+}
+.box2-4 {
+  font-size: 10px;
+
+}
+.box3 {
+  width: 300px;
+  height: auto;
+  background-color: #EEEEEE;
+  display: inline-block;
+  margin: 15px;
+}
+
+.box3-1 {
+  text-align: center;
+  color: white;
+  background-color: #FF9A4B;
+  position: absolute;
+  font-size: 15px;
+
+}
+
+.box3-2 {
+  width: 280px;
+  height: 150px;
+  background-image: url(../image/flow03.jpg);
+  background-position: bottom;
+  background-size: cover;
+  margin: 10px;
+
+}
+.box3-3 {
+ margin-top: 5px;
+}
+.box3-4 {
+ font-size: 10px;
+
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #AAAAAA;
+}
+
+
+
+@media screen and (max-width: 426px) {
+
+main {
+  height: auto;
+}
+
+.flex {
+  display: flex;
+  flex-flow: column;
+}
+
+.box {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around ;
+}
+
+
+.box1 {
+  width: 90%;
+  margin: 10px;
+}
+
+.box1-1 {
+  font-size: 15px;
+}
+
+.box1-2 {
+   width: 95%;
+   height: 150px;
+   margin: 10px;
+ }
+
+.box1-3 {
+
+}
+
+.box1-4 {
+
+}
+
+.box2 {
+  width: 90%;
+  margin: 10px;
+}
+
+.box2-1 {
+  font-size: 15px;
+}
+
+.box2-2 {
+   width: 95%;
+   height: 150px;
+   margin: 10px;
+ }
+
+.box2-3 {
+
+}
+
+.box2-4 {
+
+}.box3 {
+  width: 90%;
+  margin: 10px;
+}
+
+.box3-1 {
+  font-size: 15px;
+}
+
+.box3-2 {
+   width: 95%;
+   height: 150px;
+   margin: 10px;
+ }
+
+.box3-3 {
+
+}
+
+.box3-4 {
+
+}
+
+  }

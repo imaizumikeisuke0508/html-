@@ -53,7 +53,7 @@ main {
  .box1-2 {
    width: 280px;
    height: 150px;
-   background-image: url(../image/flow01.jpg);
+   background-image: url(flow/flow01.jpg);
    background-position: bottom;
    background-size: cover;
    margin: 10px;
@@ -85,7 +85,7 @@ main {
 .box2-2 {
   width: 280px;
   height: 150px;
-  background-image: url(../image/flow02.jpg);
+  background-image: url(flow/flow02.jpg);
   background-position: bottom;
   background-size: cover;
   margin: 10px;
@@ -118,7 +118,7 @@ main {
 .box3-2 {
   width: 280px;
   height: 150px;
-  background-image: url(../image/flow03.jpg);
+  background-image: url(flow/flow03.jpg);
   background-position: bottom;
   background-size: cover;
   margin: 10px;
@@ -140,7 +140,7 @@ footer {
 
 
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 768px) {
 
 main {
   height: auto;

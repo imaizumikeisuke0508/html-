@@ -48,6 +48,7 @@ main {
    background-color: #FF9A4B;
    position: absolute;
    font-size: 15px;
+   padding: 2px;
  }
 
  .box1-2 {
@@ -80,6 +81,7 @@ main {
   background-color: #FF9A4B;
   position: absolute;
   font-size: 15px;
+  padding: 2px;
 }
 
 .box2-2 {
@@ -112,6 +114,7 @@ main {
   background-color: #FF9A4B;
   position: absolute;
   font-size: 15px;
+  padding: 2px;
 
 }
 
